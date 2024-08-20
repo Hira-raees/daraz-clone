@@ -1,0 +1,49 @@
+@media screen and (max-width: 794px) {
+
+    header {
+        width: 1200px;
+    }
+
+    nav {
+        flex-direction: column;
+        background-color: #7a1cac;
+    }
+    nav ul {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end
+    }
+
+    .search {
+        display: flex;
+        /* flex-direction: row;
+        align-items: flex-end */
+    }
+
+    .search input {
+        height: 15px;
+        width: 200px;
+        /* margin: 12px 16px; */
+    }
+
+    .btn {
+        height: 38px;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    img {
+        width: 750px;
+    }
+
+    .slider {
+        margin-left: 100px;
+    }
+
+    .last {
+        width: 1200px;
+    }
+    
+}
